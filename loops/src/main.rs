@@ -56,11 +56,11 @@ fn while_loop() {
 }
 
 fn for_loop() {
-    const arr: [usize; 10] = [5; 10]; // don't really need this array, just testing :P
+    const ARR: [usize; 10] = [5; 10]; // don't really need this array, just testing :P
 
     let mut multiplier: usize = 1;
 
-    for element in arr {
+    for element in ARR {
         println!("{element} times {multiplier} is {}", multiplier * element);
         multiplier += 1;
     }
